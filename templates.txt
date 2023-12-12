@@ -1,0 +1,98 @@
+// 0
+double x = 3.14159 / 6;
+
+double i = 1, sin, additive = sin = x;
+
+sin += additive *= -1 * x / (i += 1) * x / (i += 1);
+sin += additive *= -1 * x / (i += 1) * x / (i += 1);
+sin += additive *= -1 * x / (i += 1) * x / (i += 1);
+sin += additive *= -1 * x / (i += 1) * x / (i += 1);
+sin += additive *= -1 * x / (i += 1) * x / (i += 1);
+sin += additive *= -1 * x / (i += 1) * x / (i += 1);
+sin += additive *= -1 * x / (i += 1) * x / (i += 1);
+sin += additive *= -1 * x / (i += 1) * x / (i += 1);
+sin += additive *= -1 * x / (i += 1) * x / (i += 1);
+
+print sin;;
+
+
+// 1
+float x = 15 / 2;
+float y = 15.0 / 2;
+x = 7;    
+y = x;;
+
+// 2
+int true = 1, false = 0;
+int switch = 0, x = 15, y = 17;
+int out = (1 - switch) * x | switch * y;
+true = out == x;
+false = out == y;;
+
+// 3
+int x = 3, y = 4, z = x * x + y * y;
+z = 25;
+x = -(54 - 43 - 23 + 42 + 54 - 34 + 23);
+y = 43 + 43 - 24 * 6 / 2 + 5 % 2 + (1 || 0 && 10);
+x = -73, y = 16;;
+
+// 4
+int i = 0, j = 0;
+j = j--, i = ++i;
+i = +1;
+j = -1;;
+
+// 5
+short x = 0xFF00;
+char* y = (char*) &x;
+*y = 0xAA;
+x = 0xFFAA;;
+
+// 6
+short x = 0xFF00;
+char* y = &x;
+*(y + 1) = 0;
+x = 0;;
+
+// 7
+short x = 0xFF00;
+char* y = &x;
+*y = 0;
+x = 0;;
+
+// 8
+int x[1] = {0, 0};;
+
+// 9 
+int x[] = {1, 2, 3};
+x[0] += x[1] += x[2];
+*x = 6;;
+
+// 10
+int i = 0, x[] = {i + 1, 1, 1};
+x[i++] = 1;
+x[i++] = 2;
+x[i++] = 3;
+x[0] = 1;
+x[1] = 2;
+x[2] = 1;;
+
+// 11
+int x;
+char* xi[] = {
+    &x, (char*) &x + 1, (char*) &x + 2,
+    (char*) &x + 3, (char*) &x + 4,
+};
+*xi[0] = 0;
+*xi[1] = 0;
+*xi[2] = 0;
+*xi[3] = 0;
+*xi[4] = 0;;
+
+// 12
+int* x = 4549;
+int* y = 4550;
+int z = x < y;
+z = 1;
+int w = x > y;
+w = 1;;
